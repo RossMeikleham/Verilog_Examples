@@ -6,4 +6,5 @@ Simple examples of Verilog programs that I've implemented while learning Verilog
   generate the test bench for the examples. The examples can be run the same way as any Unix program.
 
 #Current Examples
-  -[Multiplier Functional Unit](https://github.com/RossMeikleham/Verilog_Examples/tree/master/src/Multiplier)
+  - [Multiplier Functional Unit](https://github.com/RossMeikleham/Verilog_Examples/tree/master/src/Multiplier)
+  - [Fibonacci Functional Unit](https://github.com/RossMeikleham/Verilog_Examples/tree/master/src/Fibonacci)
