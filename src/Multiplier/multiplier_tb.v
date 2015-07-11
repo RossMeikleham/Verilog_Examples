@@ -1,4 +1,3 @@
-//`include "Multiplier.v"
 
 //Test Bench for Multiplier Functional Unit
 module MultiplierTB;
@@ -8,10 +7,6 @@ module MultiplierTB;
     reg [7:0] x, y;
     wire ready;
 
-
-//Counter for tests
-reg [7:0] counter = 0;
-reg start = 1;
 
 //Data containing 0
 reg [7:0] test0Data = 8'b00000000;
