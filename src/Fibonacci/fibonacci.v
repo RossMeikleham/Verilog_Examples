@@ -8,19 +8,22 @@ result, //result of fibonacci calculation
 ready //signals if the result is ready
 );
 
+parameter inBits = 8; //No of bits for n 
+parameter outBits = 16; //No of bits of Fib number
+
 //----Input Ports---
 input clk;
 input reset;
-input [7:0] n;
+input [inBits-1:0] n;
 
 //---Output Ports---
-output reg [15:0] result;
+output reg [outBits-1:0] result;
 output reg ready;
 
 //---Internal Registers---
-reg [15:0] last;
-reg [7:0] no;
-reg [7:0] count;
+reg [outBits-1:0] last;
+reg [inBits-1:0] no;
+reg [inBits-1:0] count;
 
 
 always @(posedge clk) begin

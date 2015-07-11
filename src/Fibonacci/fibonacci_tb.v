@@ -21,6 +21,8 @@ reg [7:0] testOrdinary = 8'd6;
 //Test overflow number
 reg [7:0] testOverflow = 8'd25;
 
+defparam f1.inBits = 8;
+defparam f1.outBits = 16;
 fibonacci f1 (clk, reset, n, result, ready);  
 
 initial begin

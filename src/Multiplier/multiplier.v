@@ -10,14 +10,16 @@ prod, //result of multiplication
 ready //signals if the result is ready
 );
 
+parameter bits = 8;
+
 //----Input Ports---
 input clk;
 input reset;
-input [7:0] x;
-input [7:0] y;
+input [bits - 1:0] x;
+input [bits - 1:0] y;
 
 //---Output Ports--
-output reg [15:0] prod;
+output reg [(bits * 2) - 1:0] prod;
 output reg ready;
 
 //--Internal Data--

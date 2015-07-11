@@ -32,6 +32,8 @@ reg [7:0] testRegularData2 = 8'd10;
 reg [7:0] test2RegularData1 = 8'd255;
 reg [7:0] test2RegularData2=  8'd255;
 
+
+defparam m1.bits = 8;
 multiplier m1 (clk, reset, x, y, result, ready);  
 
 initial begin
