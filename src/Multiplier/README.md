@@ -1,5 +1,6 @@
 #Multiplier Functional Unit Circuit
-Multiplies 2 8 bit numbers to generate a 16 bit number.
+Multiplies 2 n bit numbers to generate a 2n bit number.
 
-Run the makefile on unix systems to generate the test bench.
+Run the makefile on unix systems to generate the test bench, the
+test bench uses a value of n = 8;
 
