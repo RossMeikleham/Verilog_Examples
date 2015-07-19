@@ -9,3 +9,4 @@ Simple examples of Verilog programs that I've implemented while learning Verilog
   - [Hello World](https://github.com/RossMeikleham/Verilog_Examples/tree/master/src/HelloWorld)
   - [Multiplier Functional Unit](https://github.com/RossMeikleham/Verilog_Examples/tree/master/src/Multiplier)
   - [Fibonacci Functional Unit](https://github.com/RossMeikleham/Verilog_Examples/tree/master/src/Fibonacci)
+  - [Register Transfer Machine](https://github.com/RossMeikleham/Verilog_Examples/tree/master/src/RTM)
